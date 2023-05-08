@@ -28,7 +28,8 @@ namespace Ark
             if(tagpath.Contains("HREK"))
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo();
-                startInfo.FileName = Properties.Settings.Default.HREKPath;
+                Directory.SetCurrentDirectory(Properties.Settings.Default.HREKPath);
+                startInfo.FileName = "Foundation.exe";
                 startInfo.Arguments = "/dontloadlastopenedwindows " + tagpath;
                 Process.Start(startInfo);
             }

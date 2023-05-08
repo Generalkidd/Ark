@@ -35,7 +35,7 @@ namespace Ark
             Properties.Settings.Default.H2EKPath = h2path.Text + "\\Guerilla.exe";
             Properties.Settings.Default.H3EKPath = h3path.Text + "\\Guerilla.exe";
             Properties.Settings.Default.H3ODSTEKPath = h3odstpath.Text + "\\Guerilla.exe";
-            Properties.Settings.Default.HREKPath = hrpath.Text + "\\Foundation.exe";
+            Properties.Settings.Default.HREKPath = hrpath.Text;
             Properties.Settings.Default.H4EKPath = h4path.Text + "\\Foundation.exe";
             Properties.Settings.Default.H2AMPEKPath = h2apath.Text + "\\Foundation.exe";
             Properties.Settings.Default.Save();
