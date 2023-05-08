@@ -69,10 +69,11 @@ namespace Ark
             }
             else if (tagpath.Contains("HCEEK"))
             {
-                ProcessStartInfo startInfo = new ProcessStartInfo();
-                startInfo.FileName = Properties.Settings.Default.H1EKPath;
-                startInfo.Arguments = tagpath;
-                Process.Start(startInfo);
+                //ProcessStartInfo startInfo = new ProcessStartInfo();
+                //startInfo.FileName = Properties.Settings.Default.H1EKPath;
+                //startInfo.Arguments = tagpath;
+                //Process.Start(startInfo);
+                MessageBox.Show("Halo CE Tags Are Not Currently Supported. You will have to open them in Geurilla manually.");
             }
         }
     }
