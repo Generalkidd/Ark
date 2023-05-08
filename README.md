@@ -1,1 +1,4 @@
 # Ark
+This tool lets you add an "Open With HEK" context menu to your Windows File Explorer menu. The option is universal and supports opening tags from any Halo game. After the initial setup of the tool, it will automatically handle opening tags for you in Guerilla or Foundation and determine the proper game for you. No need to manually open the exe files of Guerilla/Foundation and then search for the individual tag again anymore! 
+# How To Use
+If this is your first time using this program, make sure to run it as an Administrator and follow the instructions to setup your HEK locations and add the "Open With HEK" option to your Windows File Explorer. After setup is complete, you can close the program and simple go to any tag, right click on it, and click "Open With HEK". The program will automatically determine which Halo mod tool to open the tag with. 
